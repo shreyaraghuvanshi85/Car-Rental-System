@@ -1,0 +1,337 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+class company
+{
+	public:
+		int choice,cost;
+		int choicec;
+		 float innova=3500.5,Renault=3650.2,XUV=3755.6,BRV=3400.0,Ertiga=3459.1,nuvosport=3200.0,TUV=3300.0;
+		 float swift=3000.0,celerio=2500.0,KUV=2600.0,i10=3200.0,wagon=3000.0,goplus=2900.0,Bolt=2800.0,Nano=2300.0;
+		void showdata()
+		{ 
+		    cout<<"Welcome to shreya Adventures"<<endl<<"Cars avaliable are 1- 7-seaters & 2- 4-seater & 3-high end model cars 4-Marriagecars"<<endl;
+		    cout<<"please give the choice of cars needed"<<endl;
+		    cin>>choice;
+		    switch(choice)
+		    {
+		    case 1:
+		    	cout<<"your intrest of cars is 7-seaters Here are some of the brands that we have"<<endl;
+		    	cout<<"1-Tyota innova"<<endl<<"2-Renault Lodgy"<<endl<<"3-Mahindra XUV500"<<endl<<"4-Honda BRV"<<endl<<"5-MAruti Ertiga"<<endl<<"6-mahindra nuvo sport"<<endl<<"7-Mahandra TUV300"<<endl;
+		    	cout<<"enter the choice of car"<<endl;
+		    	cin>>choicec;
+		    	switch(choicec)
+		        {
+		    	case 1:
+		    		cout<<"you have choosed for Tyota innova"<<endl;
+		    		cost=innova;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 2:
+		    		cout<<"you have choosed for Renault LOdgy"<<endl;
+		    		cost=Renault;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		        case 3:
+		        	cout<<"you have choosed for Mahindra XUV500"<<endl;
+		        	cost=XUV;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 4:
+		    		cout<<"you have choosed for Honda BRV"<<endl;
+		    		cost=BRV;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 5:
+		    		cout<<"you have choosed for Maruti Ertiga"<<endl;
+		    		cost=Ertiga;
+		    		cout<<"the cost of the car rent per day is "<<Ertiga;
+		    		break;
+		    	case 6:
+		    		cout<<"you have choosed for Mahendra nuvo sport"<<endl;
+		    		cost=nuvosport;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 7:
+		    		cout<<"you have choosed for Mahendra TUV300"<<endl;
+		    		cost=TUV;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	default:
+		        	cout<<"pl take the appropriate option"<<endl;
+			        break;
+		    }
+		    break;
+		    case 2:
+            		cout<<"your intrest of cars is 4-seaters Here are some of the brands that we have"<<endl;
+		    	cout<<"1-Maruti swift"<<endl<<"2-Maruti celerio"<<endl<<"3-Mahindra KUV100"<<endl<<"4-Hundai i10"<<endl<<"5-Maruti wagon R1.0"<<endl<<"6-Datson go plus"<<endl<<"7-Tata Bolt"<<endl<<"8-Nano"<<endl;
+		    	cout<<"enter the choice of the car that u need to rent for trip"<<endl;
+		    	cin>>choicec;
+		    	switch(choicec)
+		    	{
+		    		case 1:
+		    		cout<<"you have choosed for Maruti swift"<<endl;
+		    		cost=swift;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 2:
+		    		cout<<"you have choosed for Maruti celerio"<<endl;
+		    		cost=celerio;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		        case 3:
+		        	cout<<"you have choosed for Mahindra KUV100"<<endl;
+		        	cost=KUV;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 4:
+		    		cout<<"you have choosed for Hundai i10"<<endl;
+		    		cost=i10;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 5:
+		    		cout<<"you have choosed for Maruti wagon R1.0"<<endl;
+		    		cost=wagon;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 6:
+		    		cout<<"you have choosed for Datson go plus"<<endl;
+		    		cost=goplus;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 7:
+		    		cout<<"you have choosed for Tata Bolt"<<endl;
+		    		cost=Bolt;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 8:
+		    		cout<<"you have chossed for Nano"<<endl;
+		    		cost=Nano;
+		    		cout<<"the cost of the car rent for day is "<<cost<<endl;
+		        break;
+		        default:
+			        cout<<"pl take the appropriate option"<<endl;
+		        	break;
+		    }
+		    break;
+		    case 3:
+            		cout<<"your intrest of cars is High end model Here are some of the brands that we have"<<endl;
+		    	cout<<"1-Bugatti veryon"<<endl<<"2-Lamborgini Aventador"<<endl<<"3-Mercedes benz s class"<<endl<<"4-Audi A8"<<endl<<"5-BMW 7 series"<<endl<<"6-Land Rover Range rover Evoque"<<endl<<"7-Porsche Cayenne"<<endl<<"8-Toyota Camry"<<endl;
+		    	cout<<"enter the choice of the car that u need to rent for trip"<<endl;
+		    	cin>>choicec;
+		    	switch(choicec)
+		    	{
+		    		case 1:
+		    		cout<<"you have choosed for Bugatti veryon"<<endl;
+		    		cost=55000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 2:
+		    		cout<<"you have choosed for Lamborgini Aventador"<<endl;
+		    		cost=53000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		        case 3:
+		        	cout<<"you have choosed for Mercedes benz s class"<<endl;
+		        	cost=43000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 4:
+		    		cout<<"you have choosed for Audi A8"<<endl;
+		    		cost=41000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 5:
+		    		cout<<"you have choosed for BMW 7 series"<<endl;
+		    		cost=42000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 6:
+		    		cout<<"you have choosed for Land Rover Range rover Evoque"<<endl;
+		    		cost=40000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 7:
+		    		cout<<"you have choosed for Porsche Cayenne"<<endl;
+		    		cost=45000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 8:
+		    		cout<<"you have chossed for Toyota Camry"<<endl;
+		    		cost=30000;
+		    		cout<<"the cost of the car rent for day is "<<cost<<endl;
+		        break;
+		        default:
+			        cout<<"pl take the appropriate option"<<endl;
+			        break;
+		    }
+		    break;
+		    	    case 4:
+            		cout<<"your intrest of cars is Marriage Here are some of the brands that we have"<<endl;
+		    	cout<<"1-Benz limo"<<endl<<"2-Lamborgini Aventador"<<endl<<"3-Mercedes benz s class"<<endl<<"4-Audi A8"<<endl<<"5-BMW 7 series"<<endl<<"6-Land Rover Range rover Evoque"<<endl<<"7-Porsche Cayenne"<<endl<<"8-Toyota Camry"<<endl;
+		    	cout<<"enter the choice of the car that u need to rent for trip"<<endl;
+		    	cin>>choicec;
+		    	switch(choicec)
+		    	{
+		    		case 1:
+		    		cout<<"you have choosed for Bugatti veryon"<<endl;
+		    		cost=60000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 2:
+		    		cout<<"you have choosed for Lamborgini Aventador"<<endl;
+		    		cost=58000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		        case 3:
+		        	cout<<"you have choosed for Mercedes benz s class"<<endl;
+		        	cost=47000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 4:
+		    		cout<<"you have choosed for Audi A8"<<endl;
+		    		cost=51000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 5:
+		    		cout<<"you have choosed for BMW 7 series"<<endl;
+		    		cost=52000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 6:
+		    		cout<<"you have choosed for Land Rover Range rover Evoque"<<endl;
+		    		cost=50000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 7:
+		    		cout<<"you have choosed for Porsche Cayenne"<<endl;
+		    		cost=55000;
+		    		cout<<"the cost of the car rent per day is "<<cost<<endl;
+		    		break;
+		    	case 8:
+		    		cout<<"you have chossed for Toyota Camry"<<endl;
+		    		cost=40000;
+		    		cout<<"the cost of the car rent for day is "<<cost<<endl;
+		        break;
+		        default:
+			        cout<<"pl take the appropriate option"<<endl;
+		        	break;
+		}
+		break;
+		default:
+			cout<<"please take the appropriate option"<<endl;
+			break;
+		}
+	}
+};
+class coustmer:public company
+
+{
+	public:
+	char name[10],trip[10];
+	int numdays,numcars,age,drivercost=500,numpassengers,i;
+	void details()
+	{
+		cout<<"going trip for"<<endl;
+		cin>>trip;
+		cout<<"num of cars and num of days of trip"<<endl;
+		cin>>numcars>>numdays;
+    }
+   void s()
+    {
+    		cout<<"please enter the num of passangers"<<endl;
+    		cin>>numpassengers;
+    		cout<<"please enter the name of the passangers"<<endl;
+    		for(int i=0;i<numpassengers;i++)
+		{
+			gets(name);
+			cin>>age;
+		}
+	}
+};
+  class calculations:public coustmer
+  {
+  	public:
+  	float totalfare;
+  	int c;
+  	void calculation()
+  	{
+  		cout<<"1-withdriver 2-with out diver"<<endl;
+  		cin>>c;
+  		switch(c)
+  		{
+  			case 1:
+  				cout<<"you selected the trip with our driver"<<endl;
+  				totalfare=(numdays*cost+numdays*drivercost)*numcars;
+  				cout<<"the total cost of the trip with out discounts is "<<totalfare<<endl;
+  				break;
+  			case 2:
+  				cout<<"you selected the trip without driver"<<endl;
+  					totalfare=(numdays*cost)*numcars;
+  				cout<<"the total cost of the trip with out discounts is "<<totalfare<<endl;
+  				break;
+  			default:
+			    cout<<"pl take the appropriate option"<<endl;
+			     break;
+		  }
+	  }
+  };
+  class discount:public calculations
+  {
+  	public:
+  	float discfare,longtrip,bulck,bulcktrip;
+  	void discounts()
+  	{
+  		if( numdays>4)
+  		{
+  			cout<<"you are getting the discount of 10% on behalf of longtrip"<<endl;
+  			longtrip= totalfare*0.10;
+  			discfare= totalfare-longtrip;
+  			cout<<"the total due you have to pay after all disccounts is"<<discfare<<endl;
+		  }
+		  else if(numcars>4)
+		  {
+		  cout<<"you are getting the discount of 10% on behalf of familytrip"<<endl;
+  			bulck= totalfare*0.10;
+  			discfare= totalfare-bulck;
+  			cout<<"the total due you have to pay after all disccounts is"<<discfare<<endl;
+		  }	
+		  else if(numcars>4&&numdays>4)
+		  {
+		  cout<<"you are getting the discount of 10% on behalf of familytrip"<<endl;
+  			bulcktrip= totalfare*0.25;
+  			discfare= totalfare-bulcktrip;
+  			cout<<"the total due you have to pay after all disccounts is"<<discfare<<endl;
+		  }	
+		  }
+	  
+  };
+  class display:public discount
+  {
+  	public:
+  		void displays()
+  		{
+  			cout<<"the total dertails of the trip"<<endl;
+  			for(int i=0;i>numpassengers;i++)
+		{
+			cout<<name<<"-"<<age;
+		}
+		cout<<"trip for"<<trip;
+		cout<<"numdays="<<numdays<<","<<"numcars ="<<numcars<<","<<"totalcost of trip is="<<discfare<<endl;
+		cout<<"thanks for choosing us for this wonderfull trip"<<endl;
+		cout<<"Have wonderfull memoriable trip with our services"<<endl;
+		cout<<"For any help or query during trip contact for 7087765567,7986852340"<<endl;
+		  }
+  };
+  int main()
+  {
+  	display d;
+  	d.showdata();
+  	d.details();
+  	d.s();
+  	d.calculation();
+  	d.discounts();
+  	d.displays();
+  	return 0;
+  	
+  }
